@@ -7,6 +7,7 @@ import {
   Facebook,
   Globe,
 } from "lucide-react";
+import profile from "../public/profile.jpg"
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
           </nav>
           <div className="w-8 h-8 rounded-full overflow-hidden">
             <img
-              src=""
+              src={profile}
               alt="User avatar"
               width={32}
               height={32}
